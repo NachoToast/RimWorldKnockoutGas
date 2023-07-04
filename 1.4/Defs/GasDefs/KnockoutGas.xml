@@ -14,7 +14,7 @@
         </addsHediffs>
         <immunities>
             <apparel>
-                <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_GasMask</li>
+                <li>Apparel_GasMask</li>
             </apparel>
         </immunities>
     </Def>
