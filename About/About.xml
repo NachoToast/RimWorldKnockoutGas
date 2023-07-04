@@ -16,9 +16,5 @@
             <displayName>Simple Custom Gas Framework</displayName>
             <downloadUrl>https://github.com/NachoToast/SimpleCustomGasFramework/releases/latest</downloadUrl>
         </li>
-		<li>
-			<packageId>Ludeon.RimWorld.Biotech</packageId>
-			<displayName>Biotech</displayName>
-		</li>
     </modDependencies>
 </ModMetaData>
