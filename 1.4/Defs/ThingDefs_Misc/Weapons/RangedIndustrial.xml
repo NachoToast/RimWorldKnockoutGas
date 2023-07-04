@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- knockout gas launcher -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>NachoToast_Gun_KnockoutGasLauncher</defName>
+        <label>knockout gas launcher</label>
+        <description>A wide-barreled knockout gas shell launcher. The shell will upon impact release a cloud of knockout gas, causing biological lifeforms in its area of effect to slowly become unconscious.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/KnockoutGasLauncher</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <generateCommonality>0.3</generateCommonality>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <statBases>
+            <WorkToMake>30000</WorkToMake>
+            <Mass>3.4</Mass>
+            <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <weaponTags Inherit="False">
+            <li>GrenadeSmoke</li>
+        </weaponTags>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>471</displayPriority>
+        </recipeMaker>
+        <verbs>
+            <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>NachoToast_Bullet_KnockoutGasLauncher</defaultProjectile>
+            <warmupTime>3.5</warmupTime>
+            <range>23.9</range>
+            <forcedMissRadius>1.9</forcedMissRadius>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Shot_IncendiaryLauncher</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>14</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>NachoToast_Bullet_KnockoutGasLauncher</defName>
+        <label>knockout gas launcher shell</label>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <color>(84,135,113)</color>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <speed>40</speed>
+            <damageDef>Smoke</damageDef>
+            <!-- Use default damage from explosion def -->
+            <explosionRadius>2.4</explosionRadius>
+            <postExplosionGasType>Unused</postExplosionGasType>
+            <ai_IsIncendiary>true</ai_IsIncendiary>
+            <arcHeightFactor>0.2</arcHeightFactor>
+            <shadowSize>0.6</shadowSize>
+            <screenShakeFactor>0.5</screenShakeFactor>
+        </projectile>
+        <modExtensions>
+            <li Class="SCGF.CustomGasExtension">
+                <gasDef>KnockoutGas</gasDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Knockout Gas</name>
+	<author>NachoToast</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>NachoToast.KnockoutGas</packageId>
+	<loadAfter>
+		<li>NachoToast.SCGF</li>
+	</loadAfter>
+	<description>Create knockout gas, which causes biological lifeforms to slowly become unconscious.</description>
+    <modDependencies>
+        <li>
+            <packageId>NachoToast.SCGF</packageId>
+            <displayName>Simple Custom Gas Framework</displayName>
+            <downloadUrl>https://github.com/NachoToast/SimpleCustomGasFramework/releases/latest</downloadUrl>
+        </li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+    </modDependencies>
+</ModMetaData>

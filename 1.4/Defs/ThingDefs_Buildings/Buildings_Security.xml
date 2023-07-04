@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- IED knockout gas trap -->
+
+    <ThingDef ParentName="TrapIEDBase">
+        <defName>NachoToast_TrapIED_KnockoutGas</defName>
+        <label>IED Knockout gas trap</label>
+        <description>A pair of knockout gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+        <graphicData>
+            <texPath>Things/Building/Security/IEDKnockoutGas</texPath>
+        </graphicData>
+        <uiOrder>47</uiOrder>
+        <costList>
+            <NachoToast_Shell_KnockoutGas>2</NachoToast_Shell_KnockoutGas>
+        </costList>
+        <designationHotKey>Misc12</designationHotKey>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>8.6</explosiveRadius>
+                <explosiveDamageType>Smoke</explosiveDamageType>
+                <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+                <postExplosionGasType>Unused</postExplosionGasType>
+                <wickTicks>15</wickTicks>
+                <startWickOnDamageTaken>
+                    <li>Bullet</li>
+                    <li>Arrow</li>
+                    <li>ArrowHighVelocity</li>
+                </startWickOnDamageTaken>
+            </li>
+        </comps>
+        <specialDisplayRadius>8.6</specialDisplayRadius>
+        <modExtensions>
+            <li Class="SCGF.CustomGasExtension">
+                <gasDef>KnockoutGas</gasDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>
