@@ -55,7 +55,7 @@
         <defName>NachoToast_Bullet_Shell_KnockoutGas</defName>
         <label>knockout gas shell</label>
         <graphicData>
-            <texPath>Things/Projectile/ShellSmoke</texPath>
+            <texPath>Things/Projectile/ShellKnockoutGas</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
