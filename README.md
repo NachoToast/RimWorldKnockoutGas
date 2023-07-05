@@ -6,4 +6,4 @@ A simple mod that adds a form of knockout gas to RimWorld.
 
 This utilizes my [Simple Custom Gas Framework](https://github.com/NachoToast/SimpleCustomGasFramework).
 
-Find it [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2999456183) on the Steam workshop.
+Find it [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2999465928) on the Steam workshop.
