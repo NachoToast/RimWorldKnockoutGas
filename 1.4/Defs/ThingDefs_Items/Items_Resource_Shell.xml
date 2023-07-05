@@ -3,10 +3,11 @@
 
     <!-- knockout gas shell -->
 
+    <!-- based on Shell_Smoke -->
     <ThingDef ParentName="MakeableShellBase">
         <defName>NachoToast_Shell_KnockoutGas</defName>
         <label>knockout gas shell</label>
-        <description>A shell that releases a cloud of knockout gas when detonated, causing biological lifeforms in its area of effect to slowly become unconscious. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
+        <description>A shell that releases a cloud of knockout gas when detonated. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
         <descriptionHyperlinks>
             <HediffDef>NachoToast_KnockoutGas</HediffDef>
         </descriptionHyperlinks>
@@ -40,7 +41,7 @@
                 <li>Mortars</li>
                 <li>GasOperation</li>
             </researchPrerequisites>
-            <displayPriority>121</displayPriority>
+            <displayPriority>130</displayPriority>
         </recipeMaker>
         <modExtensions>
             <li Class="SCGF.CustomGasExtension">
@@ -49,6 +50,7 @@
         </modExtensions>
     </ThingDef>
 
+    <!-- based on Bullet_Shell_Smoke -->
     <ThingDef ParentName="BaseBullet">
         <defName>NachoToast_Bullet_Shell_KnockoutGas</defName>
         <label>knockout gas shell</label>
