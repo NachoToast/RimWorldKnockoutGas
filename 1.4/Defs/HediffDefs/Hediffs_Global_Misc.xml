@@ -67,10 +67,10 @@
                 <label>unconscious</label>
                 <painFactor>0</painFactor>
                 <capMods>
-                <li>
-                    <capacity>Consciousness</capacity>
-                    <setMax>0.01</setMax>
-                </li>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.01</setMax>
+                    </li>
                 </capMods>
             </li>
         </stages>
