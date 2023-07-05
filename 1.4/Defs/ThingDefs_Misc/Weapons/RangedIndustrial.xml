@@ -3,10 +3,11 @@
 
     <!-- knockout gas launcher -->
 
+    <!-- based on Gun_SmokeLauncher -->
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>NachoToast_Gun_KnockoutGasLauncher</defName>
         <label>knockout gas launcher</label>
-        <description>A wide-barreled knockout gas shell launcher. The shell will upon impact release a cloud of knockout gas, causing biological lifeforms in its area of effect to slowly become unconscious.</description>
+        <description>A wide-barreled knockout gas shell launcher. The shell will upon impact release a cloud of knockout gas.</description>
         <descriptionHyperlinks>
             <HediffDef>NachoToast_KnockoutGas</HediffDef>
         </descriptionHyperlinks>
@@ -27,6 +28,7 @@
         <costList>
             <Steel>75</Steel>
             <ComponentIndustrial>4</ComponentIndustrial>
+            <MedicineHerbal>20</MedicineHerbal>
         </costList>
         <weaponTags Inherit="False">
             <li>GrenadeSmoke</li>
@@ -35,6 +37,7 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
+            <researchPrerequisite>GasOperation</researchPrerequisite>
             <displayPriority>471</displayPriority>
         </recipeMaker>
         <verbs>
@@ -75,6 +78,7 @@
         </tools>
     </ThingDef>
 
+    <!-- based on Bullet_SmokeLauncher -->
     <ThingDef ParentName="BaseBullet">
         <defName>NachoToast_Bullet_KnockoutGasLauncher</defName>
         <label>knockout gas launcher shell</label>
