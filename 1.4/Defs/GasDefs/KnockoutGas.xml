@@ -8,8 +8,6 @@
         <addsHediffs>
             <li>
                 <hediff>NachoToast_KnockoutGas</hediff>
-                <severityGasDensityFactor>0.05</severityGasDensityFactor>
-                <finalStageMultiplier>0.25</finalStageMultiplier>
             </li>
         </addsHediffs>
         <immunities>
