@@ -4,7 +4,10 @@
     <HediffDef>
         <defName>NachoToast_KnockoutGas</defName>
         <label>knockout gas</label>
-        <description>Aftereffects of exposure to knockout gas. It enters the body through the lungs, reducing consciousness. Continued exposure will eventually knock out the pawn for a temporary amount of time.\nAlthough it can be nullified by a gas mask, it is not stopped by antitoxic lungs due to its different chemical makeup.</description>
+        <description>Aftereffects of exposure to knockout gas. It enters the body through the lungs, reducing consciousness. Continued exposure will eventually knock out the pawn temporarily.\nAlthough it can be nullified by a gas mask, it is not stopped by antitoxic lungs due to its different chemical makeup.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Apparel_GasMask</ThingDef>
+        </descriptionHyperlinks>
         <hediffClass>HediffWithComps</hediffClass>
         <defaultLabelColor>(0, 140, 142)</defaultLabelColor>
         <maxSeverity>1.5</maxSeverity>
