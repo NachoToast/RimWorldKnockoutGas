@@ -11,3 +11,5 @@ Find it [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2999465928
 ![image](1.4/Source/Media/knockout_a.png)
 
 ![image](1.4/Source/Media/knockout_b.png)
+
+![image](1.4/Source/Media/knockout_c.png)
