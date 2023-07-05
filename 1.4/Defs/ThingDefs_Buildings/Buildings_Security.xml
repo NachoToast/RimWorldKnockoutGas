@@ -3,6 +3,7 @@
 
     <!-- IED knockout gas trap -->
 
+    <!-- based on TrapIED_Smoke -->
     <ThingDef ParentName="TrapIEDBase">
         <defName>NachoToast_TrapIED_KnockoutGas</defName>
         <label>IED Knockout gas trap</label>
@@ -17,7 +18,6 @@
         <costList>
             <NachoToast_Shell_KnockoutGas>2</NachoToast_Shell_KnockoutGas>
         </costList>
-        <designationHotKey>Misc12</designationHotKey>
         <comps>
             <li Class="CompProperties_Explosive">
                 <explosiveRadius>8.6</explosiveRadius>
