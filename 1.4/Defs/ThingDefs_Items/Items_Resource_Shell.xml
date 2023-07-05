@@ -7,6 +7,9 @@
         <defName>NachoToast_Shell_KnockoutGas</defName>
         <label>knockout gas shell</label>
         <description>A shell that releases a cloud of knockout gas when detonated, causing biological lifeforms in its area of effect to slowly become unconscious. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
+        <descriptionHyperlinks>
+            <HediffDef>NachoToast_KnockoutGas</HediffDef>
+        </descriptionHyperlinks>
         <possessionCount>2</possessionCount>
         <graphicData>
             <texPath>Things/Item/Resource/Shell/Shell_KnockoutGas</texPath>

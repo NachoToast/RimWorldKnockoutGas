@@ -7,6 +7,9 @@
         <defName>NachoToast_Gun_KnockoutGasLauncher</defName>
         <label>knockout gas launcher</label>
         <description>A wide-barreled knockout gas shell launcher. The shell will upon impact release a cloud of knockout gas, causing biological lifeforms in its area of effect to slowly become unconscious.</description>
+        <descriptionHyperlinks>
+            <HediffDef>NachoToast_KnockoutGas</HediffDef>
+        </descriptionHyperlinks>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/KnockoutGasLauncher</texPath>
             <graphicClass>Graphic_Single</graphicClass>

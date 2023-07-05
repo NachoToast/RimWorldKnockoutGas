@@ -7,6 +7,9 @@
         <defName>NachoToast_TrapIED_KnockoutGas</defName>
         <label>IED Knockout gas trap</label>
         <description>A pair of knockout gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+        <descriptionHyperlinks>
+            <HediffDef>NachoToast_KnockoutGas</HediffDef>
+        </descriptionHyperlinks>
         <graphicData>
             <texPath>Things/Building/Security/IEDKnockoutGas</texPath>
         </graphicData>
