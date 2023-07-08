@@ -1,4 +1,4 @@
-# RimWorld / Knockout Gas
+# RimWorld / Knockout Gas ![image](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2999465928)
 
 ![image](About/Preview.png)
 
