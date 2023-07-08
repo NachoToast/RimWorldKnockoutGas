@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<Manifest>
-    <identifier>net.nachotoast.rimworld.mod.knockoutgas</identifier>
-    <version>1.0.1</version>
-    <manifestUri>https://raw.githubusercontent.com/NachoToast/RimWorldKnockoutGas/main/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/NachoToast/RimWorldKnockoutGas/releases/latest</downloadUri>
-</Manifest>
